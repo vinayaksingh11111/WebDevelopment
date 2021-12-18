@@ -1,0 +1,26 @@
+.first{
+    background-color: blue;
+    height:100px;
+    width:100px;
+    display:inline-block;
+}
+
+.second{
+    background-color:yellow;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    position:relative;
+    left:100px;
+}
+
+.third{
+    background-color:red;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    position:relative;
+    right: 100px;
+}
+
+/* In relative style posiitiong the object are places in relative to their previous position i.e if we say left=100px then it means that shift the left border of our current picture 100 px to right how ever this relative positioning does not keep in mind the rest of blocks therefore we just comment right:100px then we see that blue goes on top of yellow */

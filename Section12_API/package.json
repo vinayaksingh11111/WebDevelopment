@@ -1,0 +1,19 @@
+{
+  "name": "section12_api",
+  "version": "1.0.0",
+  "description": "This a demo for working with API's",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinayak Singh",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+=======
+    "body-parser": "^1.19.0",
+>>>>>>> 8fc544d44ab2aa31ef92b0b77856237f8b49e42a
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  }
+}

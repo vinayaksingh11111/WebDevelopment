@@ -1,0 +1,35 @@
+/* TAG SELECTORS */
+
+body{
+    background-color:aqua;
+}
+
+h1{
+    color:red;
+}
+
+img{
+    background-color: red;
+}
+
+/* CLASS SELECTORS */
+
+.bacon{
+    background-color: green;
+}
+
+.broccoli{
+    background-color: red;
+}
+
+.veg{
+    border-radius: 100%;
+}
+
+/* ID SELECTOR */
+
+#heading{
+    color:blueviolet
+}
+
+/* ID and CLASS selector are more preferred then TAG Selector */

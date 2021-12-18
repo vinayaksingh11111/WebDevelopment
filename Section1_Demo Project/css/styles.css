@@ -1,0 +1,33 @@
+body {
+    background-color: darksalmon
+}
+
+hr {
+    /* background-color:blue; */
+    border-style: none;
+    /* We are saying that our hr tag should have no border at all */
+
+    border-top-style: dotted;
+    /* Here we are saying that our that the box top line should be of dotted type */
+
+    /* border-width:0px 0px 8px 0px; */
+
+    /* Remove the border=top-style line and put border-style:none; and uncomment the above line to get the same result */
+
+    border-width: 10px;
+    /* Determint the width of the border shape */
+
+    /* height:100px; */
+    /* The height here refers to the the height of the box hr element is enclosed in we can uncooment the line to see the effect */
+
+    width: 10%;
+    /* Determine the width of the box in which border is enclosed */
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}

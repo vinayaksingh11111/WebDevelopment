@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+.bigFont {
+    font-size: 10rem;
+    font-family: cursive;
+}
+
+.marginSize {
+    margin: 50px;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}

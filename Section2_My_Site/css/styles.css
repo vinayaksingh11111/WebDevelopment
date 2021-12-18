@@ -1,0 +1,213 @@
+body {
+    /* background-color: aquamarine; */
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    /* This would wok on all block and inlin element but if we specify the width or height of block then it will not work */
+}
+
+span {
+    /* display: block; */
+
+    /* Uncomment above line to see that the each inline element act like block element i.e takes up whole space for itself but we can resize the element */
+
+    /* background-color: cadetblue; */
+
+    width: 100px;
+    /* Can't set the width of inline elements */
+}
+
+.top_container {
+    background-color: #E4F9F5;
+
+    /* border: solid 10px; */
+
+    /* border-top-width: 10px; */
+
+    /* Alternatively we can specify the width of individual border width like this */
+
+    /* display: none; */
+
+    /* Deletes the element and deletes the space it occupies*/
+
+    /* visibility: hidden; */
+
+    /* Removes the element from the screen but don't delete the space it occupies in the html page */
+
+    padding: 100px;
+
+    /* height: 200px;
+    width: 200px; */
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+}
+
+h1 {
+    /* position: relative;
+    top: 30px */
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    color: #66BFBF;
+    line-height: 2;
+
+    /* 100%=16px=1em */
+
+    /* If we use % or em then the value are added for the tag we are in and it's parent therefore we use rem  */
+}
+
+h2 {
+    /* display:inline; */
+
+    /* We can make it's type inline but then we will not be able to resize it */
+
+    /* In order to make the element have property of block(ability to resize the element and ability of inline(not take up the whole space) we use inline-block display */
+
+    /* display: inline-block; */
+    /* background-color: darkcyan; */
+
+    margin: auto auto 0 auto;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: bold;
+    line-height: 2;
+    /* width: 200px; */
+}
+
+h3 {
+    color: #11999E;
+    font-size: 1.5rem;
+
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    /* position: relative; */
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    margin: auto;
+    /* width:400px; */
+    /* top: 40px */
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 70px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* left: 700; */
+    top: 400px;
+}
+
+.skill-row {
+    /* position: absolute; */
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+    /* margin:auto; */
+}
+
+.skill {
+    width: 25%;
+    float: left;
+    /* It means that the image will float to the left and all text will wrap itself around the image i.e in same line as image withouth the use of table */
+    margin-right: 30px;
+}
+
+.chillies {
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+}
+
+.Dd {
+    margin-left: 25%;
+    font-weight: bold;
+    /* clear = left means that there wouldbe no wrapping of our text filed left margin  */
+}
+
+.chilly {
+    margin-right: 25%;
+    font-weight: bold;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.BUTTON_WUY {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 34px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_WUY:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-size: 1rem;
+}
+
+.line {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 20px;
+    color: #EAF6F6;
+    height: 20px;
+    width: 10%;
+    margin-top: 50px;
+}
