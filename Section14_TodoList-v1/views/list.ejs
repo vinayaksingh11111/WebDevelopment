@@ -1,0 +1,25 @@
+<%- include("header") %> 
+<body class="text-center">
+  
+  <div class="box" id="heading">
+    <!-- here listTitle means that we want to replace the listTitle variable with the desired day that we will get from the js file -->
+    <h1><%=listTitle%></h1>
+  </div>
+
+  <div class="box">
+    <!-- This is scriptlet tag this helps us to introduce logic inside our html -->
+    <% for(var i = 0; i<addTask.length; i++){ %>
+    <div class="item">
+      <input type="checkbox">
+      <p> <%= addTask[i] %> </p>
+    </div>
+    <% } %>
+    <form action="/" method="POST">
+      <!-- We sending the content to our home page, for that we need to define a app.post in our js file that handles the post request -->
+      <input type="text" name="todo" placeholder="New Item" autocomplete="off">
+      <button type="submit" name="list" value=<%= listTitle %> >+</button>
+      <!-- This listTilte variable only holds the first word of the sentence that I pass -->
+    </form>
+  </div>
+</body>
+<%- include("footer") %> 
