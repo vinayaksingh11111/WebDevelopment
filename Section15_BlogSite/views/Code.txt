@@ -1,0 +1,5 @@
+<% posts.forEach(function(post){ %>
+<% console.log(post.Title) %> 
+<% }) %> 
+
+Shortcut to use loop in ejs file
